@@ -8,4 +8,4 @@ COPY ./server/ .
 
 RUN chmod +x server_v1.x86_64
 
-CMD ["./server_1.x86_64"]
+CMD ["./server_v1.x86_64"]
