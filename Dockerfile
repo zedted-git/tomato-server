@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y libglib2.0-0 libgtk-3-0 libnss3 libx11-
 
 WORKDIR /app
 
-COPY
+COPY ./ .
 
 RUN chmod +x server_v1.x86_64
 
